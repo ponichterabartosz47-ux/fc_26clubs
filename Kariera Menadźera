@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>FC 26 Clubs – przegląd klubów</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 16px;
+      background: #060714;
+      color: #f5f5f5;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 24px;
+      letter-spacing: 0.04em;
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+      align-items: center;
+    }
+    .toolbar select,
+    .toolbar input {
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid #333;
+      background: #111322;
+      color: #f5f5f5;
+      min-width: 140px;
+    }
+    .toolbar label {
+      font-size: 13px;
+      opacity: 0.85;
+    }
+    .clubs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .club-card {
+      background: radial-gradient(circle at top left, #313866 0, #15162b 40%, #050512 100%);
+      border-radius: 16px;
+      padding: 12px 12px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .club-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: #0b0c18;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      flex-shrink: 0;
+    }
+    .club-logo img {
+      max-width: 32px;
+      max-height: 32px;
+      object-fit: contain;
+    }
+    .club-main {
+      flex: 1;
+      min-width: 0;
+    }
+    .club-name {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .club-meta {
+      font-size: 12px;
+      opacity: 0.8;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 11px;
+    }
+    .flag {
+      width: 18px;
+      height: 12px;
+      border-radius: 2px;
+      object-fit: cover;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .aliases {
+      margin-top: 4px;
+      font-size: 11px;
+      opacity: 0.7;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .summary {
+      font-size: 13px;
+      margin-bottom: 10px;
+      opacity: 0.9;
+    }
+    .summary strong {
+      font-weight: 600;
+    }
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    .chip {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: #101225;
+      cursor: pointer;
+      opacity: 0.85;
+    }
+    .chip.active {
+      background: linear-gradient(135deg, #ffcc33, #ff8a00);
+      border-color: transparent;
+      color: #151515;
+      opacity: 1;
+      font-weight: 600;
+    }
+    .error {
+      color: #ff6b81;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+    @media (max-width: 600px) {
+      .club-card {
+        padding: 10px;
+      }
+      .club-name {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>FC 26 Clubs – przegląd</h1>
+
+  <div class="toolbar">
+    <label>
+      Kraj:
+      <select id="countryFilter">
+        <option value="all">Wszystkie</option>
+        <option value="Anglia">Anglia</option>
+        <option value="Hiszpania">Hiszpania</option>
+        <option value="Włochy">Włochy</option>
+        <option value="Polska">Polska</option>
+      </select>
+    </label>
+
+    <label>
+      Liga:
+      <select id="leagueFilter">
+        <option value="all">Wszystkie</option>
+        <option value="Premier League">Premier League</option>
+        <option value="Championship">Championship</option>
+        <option value="LaLiga">LaLiga</option>
+        <option value="LaLiga 2">LaLiga 2</option>
+        <option value="Serie A">Serie A</option>
+        <option value="Serie B">Serie B</option>
+        <option value="Ekstraklasa">Ekstraklasa</option>
+      </select>
+    </label>
+
+    <label style="flex: 1; min-width: 180px;">
+      Szukaj (nazwa / alias):
+      <input id="searchInput" type="text" placeholder="np. barca, juve, kolejorz..." />
+    </label>
+  </div>
+
+  <div class="chip-row" id="quickLeagueRow">
+    <span class="chip active" data-league="all">Wszystkie ligi</span>
+    <span class="chip" data-league="Premier League">Premier League</span>
+    <span class="chip" data-league="LaLiga">LaLiga</span>
+    <span class="chip" data-league="Serie A">Serie A</span>
+    <span class="chip" data-league="Ekstraklasa">Ekstraklasa</span>
+  </div>
+
+  <div class="summary" id="summary"></div>
+  <div class="error" id="error" style="display:none;"></div>
+  <div class="clubs-grid" id="clubsGrid"></div>
+
+  <script>
+    const state = {
+      clubs: [],
+      countryFlags: {},
+      filters: {
+        country: 'all',
+        league: 'all',
+        search: ''
+      }
+    };
+
+    async function loadData() {
+      const errorEl = document.getElementById('error');
+      try {
+        const res = await fetch('clubs-europe.json');
+        if (!res.ok) {
+          throw new Error('Nie udało się pobrać pliku clubs-europe.json');
+        }
+        const data = await res.json();
+        state.clubs = Array.isArray(data.clubs) ? data.clubs : [];
+        state.countryFlags = data.countryFlags || {};
+        render();
+      } catch (err) {
+        console.error(err);
+        errorEl.style.display = 'block';
+        errorEl.textContent =
+          'Błąd podczas wczytywania danych. Sprawdź, czy plik clubs-europe.json jest w tym samym katalogu.';
+      }
+    }
+
+    function applyFilters() {
+      const { country, league, search } = state.filters;
+      const term = search.trim().toLowerCase();
+
+      return state.clubs.filter(club => {
+        if (country !== 'all' && club.country !== country) return false;
+        if (league !== 'all' && club.league !== league) return false;
+
+        if (term) {
+          const nameMatch = (club.name || '').toLowerCase().includes(term);
+          const aliases = Array.isArray(club.aliases) ? club.aliases : [];
+          const aliasMatch = aliases.some(a => (a || '').toLowerCase().includes(term));
+          if (!nameMatch && !aliasMatch) return false;
+        }
+
+        return true;
+      });
+    }
+
+    function renderSummary(filtered) {
+      const summaryEl = document.getElementById('summary');
+      const total = state.clubs.length;
+      const count = filtered.length;
+
+      const country = state.filters.country === 'all' ? 'wszystkie kraje' : state.filters.country;
+      const league = state.filters.league === 'all' ? 'wszystkie ligi' : state.filters.league;
+
+      summaryEl.innerHTML = `
+        <strong>${count}</strong> klubów (z ${total}) •
+        Kraj: <strong>${country}</strong> •
+        Liga: <strong>${league}</strong>
+      `;
+    }
+
+    function renderClubs() {
+      const grid = document.getElementById('clubsGrid');
+      const filtered = applyFilters();
+
+      renderSummary(filtered);
+
+      grid.innerHTML = '';
+
+      if (!filtered.length) {
+        grid.innerHTML = '<p>Brak klubów dla wybranych filtrów.</p>';
+        return;
+      }
+
+      // sortowanie: kraj → liga → nazwa
+      filtered.sort((a, b) => {
+        if (a.country !== b.country) return a.country.localeCompare(b.country);
+        if (a.league !== b.league) return a.league.localeCompare(b.league);
+        return a.name.localeCompare(b.name);
+      });
+
+      for (const club of filtered) {
+        const card = document.createElement('div');
+        card.className = 'club-card';
+
+        const logoWrapper = document.createElement('div');
+        logoWrapper.className = 'club-logo';
+        const img = document.createElement('img');
+        if (club.logo) img.src = club.logo;
+        img.alt = club.name || '';
+        logoWrapper.appendChild(img);
+
+        const main = document.createElement('div');
+        main.className = 'club-main';
+
+        const nameEl = document.createElement('div');
+        nameEl.className = 'club-name';
+        nameEl.textContent = club.name || 'Bez nazwy';
+
+        const meta = document.createElement('div');
+        meta.className = 'club-meta';
+
+        if (club.flag || state.countryFlags[club.country]) {
+          const flagImg = document.createElement('img');
+          flagImg.className = 'flag';
+          flagImg.src = club.flag || state.countryFlags[club.country];
+          flagImg.alt = club.country || '';
+          meta.appendChild(flagImg);
+        }
+
+        if (club.country) {
+          const countryBadge = document.createElement('span');
+          countryBadge.className = 'badge';
+          countryBadge.textContent = club.country;
+          meta.appendChild(countryBadge);
+        }
+
+        if (club.league) {
+          const leagueBadge = document.createElement('span');
+          leagueBadge.className = 'badge';
+          leagueBadge.textContent = club.league;
+          meta.appendChild(leagueBadge);
+        }
+
+        const aliases = Array.isArray(club.aliases) ? club.aliases : [];
+        const aliasesEl = document.createElement('div');
+        aliasesEl.className = 'aliases';
+        if (aliases.length) {
+          aliasesEl.textContent = 'Alias: ' + aliases.slice(0, 5).join(', ');
+        } else {
+          aliasesEl.textContent = 'Alias: —';
+        }
+
+        main.appendChild(nameEl);
+        main.appendChild(meta);
+        main.appendChild(aliasesEl);
+
+        card.appendChild(logoWrapper);
+        card.appendChild(main);
+        grid.appendChild(card);
+      }
+    }
+
+    function render() {
+      renderClubs();
+    }
+
+    function setupFilters() {
+      const countrySelect = document.getElementById('countryFilter');
+      const leagueSelect = document.getElementById('leagueFilter');
+      const searchInput = document.getElementById('searchInput');
+      const quickRow = document.getElementById('quickLeagueRow');
+
+      countrySelect.addEventListener('change', () => {
+        state.filters.country = countrySelect.value;
+        renderClubs();
+      });
+
+      leagueSelect.addEventListener('change', () => {
+        state.filters.league = leagueSelect.value;
+        // aktualizujemy chipy quick filter
+        const chips = quickRow.querySelectorAll('.chip');
+        chips.forEach(chip => {
+          chip.classList.toggle('active', chip.dataset.league === state.filters.league || (state.filters.league === 'all' && chip.dataset.league === 'all'));
+        });
+        renderClubs();
+      });
+
+      searchInput.addEventListener('input', () => {
+        state.filters.search = searchInput.value;
+        renderClubs();
+      });
+
+      quickRow.addEventListener('click', e => {
+        const chip = e.target.closest('.chip');
+        if (!chip) return;
+        const league = chip.dataset.league;
+        state.filters.league = league;
+        leagueSelect.value = league === 'all' ? 'all' : league;
+        quickRow.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        renderClubs();
+      });
+    }
+
+    setupFilters();
+    loadData();
+  </script>
+</body>
+</html>
