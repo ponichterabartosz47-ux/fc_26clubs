@@ -1,0 +1,1217 @@
+{
+  "clubs": [
+    {
+      "name": "Arsenal",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      "aliases": [
+        "arsenal",
+        "arsenal fc",
+        "ars",
+        "the gunners",
+        "kanonierzy",
+        "arsenal london",
+        "arsenal football club"
+      ]
+    },
+    {
+      "name": "Aston Villa",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/f9/Aston_Villa_FC_crest_%282016%29.svg",
+      "aliases": [
+        "aston villa",
+        "villa",
+        "avfc",
+        "the villains",
+        "aston villa fc"
+      ]
+    },
+    {
+      "name": "Bournemouth",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg",
+      "aliases": [
+        "bournemouth",
+        "afc bournemouth",
+        "the cherries",
+        "bournemouth fc"
+      ]
+    },
+    {
+      "name": "Brentford",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/Brentford_FC_crest.svg",
+      "aliases": [
+        "brentford",
+        "brentford fc",
+        "the bees"
+      ]
+    },
+    {
+      "name": "Brighton & Hove Albion",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg",
+      "aliases": [
+        "brighton",
+        "bha",
+        "brighton hove",
+        "the seagulls",
+        "brighton & hove"
+      ]
+    },
+    {
+      "name": "Chelsea",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      "aliases": [
+        "chelsea",
+        "cfc",
+        "the blues",
+        "chelsea fc",
+        "chelsea london"
+      ]
+    },
+    {
+      "name": "Crystal Palace",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Crystal_Palace_FC_logo_%282022%29.svg",
+      "aliases": [
+        "crystal palace",
+        "palace",
+        "cpfc",
+        "the eagles"
+      ]
+    },
+    {
+      "name": "Everton",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
+      "aliases": [
+        "everton",
+        "efc",
+        "the toffees",
+        "everton fc"
+      ]
+    },
+    {
+      "name": "Fulham",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Fulham_FC_%28shield%29.svg",
+      "aliases": [
+        "fulham",
+        "ffc",
+        "the cottagers",
+        "fulham fc"
+      ]
+    },
+    {
+      "name": "Liverpool",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      "aliases": [
+        "liverpool",
+        "lfc",
+        "the reds",
+        "liverpool fc",
+        "liverpool football club"
+      ]
+    },
+    {
+      "name": "Manchester City",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      "aliases": [
+        "manchester city",
+        "man city",
+        "mcfc",
+        "cityzens",
+        "the citizens"
+      ]
+    },
+    {
+      "name": "Manchester United",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+      "aliases": [
+        "manchester united",
+        "man united",
+        "man utd",
+        "mu",
+        "mufc",
+        "the red devils"
+      ]
+    },
+    {
+      "name": "Newcastle United",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
+      "aliases": [
+        "newcastle",
+        "nufc",
+        "newcastle united",
+        "the magpies"
+      ]
+    },
+    {
+      "name": "Nottingham Forest",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/8b/Nottingham_Forest_logo.svg",
+      "aliases": [
+        "nottingham forest",
+        "forest",
+        "nffc",
+        "the reds"
+      ]
+    },
+    {
+      "name": "Southampton",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/c9/FC_Southampton.svg",
+      "aliases": [
+        "southampton",
+        "saints",
+        "sfc"
+      ]
+    },
+    {
+      "name": "Tottenham Hotspur",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      "aliases": [
+        "tottenham",
+        "spurs",
+        "thfc",
+        "tottenham hotspur"
+      ]
+    },
+    {
+      "name": "West Ham United",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg",
+      "aliases": [
+        "west ham",
+        "whu",
+        "west ham united",
+        "the hammers"
+      ]
+    },
+    {
+      "name": "Wolverhampton Wanderers",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg",
+      "aliases": [
+        "wolves",
+        "wolverhampton",
+        "wwfc"
+      ]
+    },
+    {
+      "name": "Leicester City",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png",
+      "aliases": [
+        "leicester",
+        "lcfc",
+        "leicester city",
+        "the foxes"
+      ]
+    },
+    {
+      "name": "Ipswich Town",
+      "league": "Premier League",
+      "country": "Anglia",
+      "flag": "https://flagcdn.com/w40/gb-eng.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/43/Ipswich_Town.svg",
+      "aliases": [
+        "ipswich",
+        "ipswich town",
+        "itfc",
+        "the tractor boys"
+      ]
+    }
+  ],
+
+  "countryFlags": {
+    "Anglia": "https://flagcdn.com/w40/gb-eng.png",
+    "Hiszpania": "https://flagcdn.com/w40/es.png",
+    "Włochy": "https://flagcdn.com/w40/it.png",
+    "Polska": "https://flagcdn.com/w40/pl.png"
+  }
+}
+{
+  "clubs": [
+    {
+      "name": "Real Madrid",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+      "aliases": [
+        "real madrid",
+        "rm",
+        "real",
+        "los blancos",
+        "los merengues",
+        "real madrid cf",
+        "real madryt"
+      ]
+    },
+    {
+      "name": "FC Barcelona",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
+      "aliases": [
+        "barcelona",
+        "fc barcelona",
+        "fcb",
+        "barca",
+        "blaugrana",
+        "barca fc"
+      ]
+    },
+    {
+      "name": "Atlético Madrid",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/Atletico_Madrid_2017_logo.svg",
+      "aliases": [
+        "atletico",
+        "atleti",
+        "atm",
+        "atlético madrid",
+        "los colchoneros"
+      ]
+    },
+    {
+      "name": "Sevilla FC",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg",
+      "aliases": [
+        "sevilla",
+        "sevilla fc",
+        "sfc",
+        "los nervionenses"
+      ]
+    },
+    {
+      "name": "Real Betis",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/43/Real_betis_logo.svg",
+      "aliases": [
+        "betis",
+        "real betis",
+        "betis sevilla",
+        "los verdiblancos"
+      ]
+    },
+    {
+      "name": "Valencia CF",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/Valenciacf.svg",
+      "aliases": [
+        "valencia",
+        "valencia cf",
+        "vcf",
+        "los murciélagos"
+      ]
+    },
+    {
+      "name": "Villarreal CF",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
+      "aliases": [
+        "villarreal",
+        "villarreal cf",
+        "vcf",
+        "el submarino amarillo"
+      ]
+    },
+    {
+      "name": "Real Sociedad",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo.svg",
+      "aliases": [
+        "real sociedad",
+        "la real",
+        "rs",
+        "txuri-urdin"
+      ]
+    },
+    {
+      "name": "Athletic Club",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
+      "aliases": [
+        "athletic",
+        "athletic bilbao",
+        "ac bilbao",
+        "los leones"
+      ]
+    },
+    {
+      "name": "Celta Vigo",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/12/RC_Celta_de_Vigo_logo.svg",
+      "aliases": [
+        "celta",
+        "celta vigo",
+        "rc celta",
+        "los celestes"
+      ]
+    },
+    {
+      "name": "Rayo Vallecano",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5e/Rayo_Vallecano_logo.svg",
+      "aliases": [
+        "rayo",
+        "rayo vallecano",
+        "franjirrojos"
+      ]
+    },
+    {
+      "name": "Getafe CF",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Getafe_logo.svg",
+      "aliases": [
+        "getafe",
+        "getafe cf",
+        "azulones"
+      ]
+    },
+    {
+      "name": "Osasuna",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Osasuna_logo.svg",
+      "aliases": [
+        "osasuna",
+        "ca osasuna",
+        "rojillos"
+      ]
+    },
+    {
+      "name": "UD Las Palmas",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/1c/UD_Las_Palmas_logo.svg",
+      "aliases": [
+        "las palmas",
+        "ud las palmas",
+        "pío-pío"
+      ]
+    },
+    {
+      "name": "Girona FC",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/8f/Girona_FC_Logo.svg",
+      "aliases": [
+        "girona",
+        "girona fc",
+        "blanquivermells"
+      ]
+    },
+    {
+      "name": "Alavés",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alav%C3%A9s_logo.svg",
+      "aliases": [
+        "alaves",
+        "deportivo alaves",
+        "babazorros"
+      ]
+    },
+    {
+      "name": "Mallorca",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/6f/Rcd_mallorca.svg",
+      "aliases": [
+        "mallorca",
+        "rcd mallorca",
+        "bermellones"
+      ]
+    },
+    {
+      "name": "Cádiz CF",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/6d/C%C3%A1diz_CF_logo.svg",
+      "aliases": [
+        "cadiz",
+        "cadiz cf",
+        "submarino amarillo"
+      ]
+    },
+    {
+      "name": "Granada CF",
+      "league": "LaLiga",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/52/Granada_CF_logo.svg",
+      "aliases": [
+        "granada",
+        "granada cf",
+        "nazaríes"
+      ]
+    },
+
+    /* ---------------------- */
+    /*     LALIGA 2           */
+    /* ---------------------- */
+
+    {
+      "name": "Real Valladolid",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/6e/Real_Valladolid_Logo.svg",
+      "aliases": [
+        "valladolid",
+        "real valladolid",
+        "pucela"
+      ]
+    },
+    {
+      "name": "Espanyol",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Rcd_espanyol_logo.svg",
+      "aliases": [
+        "espanyol",
+        "rcd espanyol",
+        "pericos"
+      ]
+    },
+    {
+      "name": "Eibar",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg",
+      "aliases": [
+        "eibar",
+        "sd eibar",
+        "armeros"
+      ]
+    },
+    {
+      "name": "Levante UD",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/02/Levante_ud_logo.png",
+      "aliases": [
+        "levante",
+        "levante ud",
+        "granotas"
+      ]
+    },
+    {
+      "name": "Sporting Gijón",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/3d/Real_Sporting_de_Gij%C3%B3n_logo.svg",
+      "aliases": [
+        "sporting",
+        "sporting gijon",
+        "rojiblancos"
+      ]
+    },
+    {
+      "name": "Real Zaragoza",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Real_Zaragoza_logo.svg",
+      "aliases": [
+        "zaragoza",
+        "real zaragoza",
+        "blanquillos"
+      ]
+    },
+    {
+      "name": "Tenerife",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/CD_Tenerife_logo.svg",
+      "aliases": [
+        "tenerife",
+        "cd tenerife",
+        "tete"
+      ]
+    },
+    {
+      "name": "Elche CF",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/89/Elche_CF_logo.svg",
+      "aliases": [
+        "elche",
+        "elche cf",
+        "franjiverdes"
+      ]
+    },
+    {
+      "name": "Burgos CF",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/Burgos_CF_logo.svg",
+      "aliases": [
+        "burgos",
+        "burgos cf"
+      ]
+    },
+    {
+      "name": "Mirandés",
+      "league": "LaLiga 2",
+      "country": "Hiszpania",
+      "flag": "https://flagcdn.com/w40/es.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4b/CD_Mirand%C3%A9s_logo.svg",
+      "aliases": [
+        "mirandes",
+        "cd mirandes",
+        "rojillos"
+      ]
+    }
+  ],
+
+  "countryFlags": {
+    "Anglia": "https://flagcdn.com/w40/gb-eng.png",
+    "Hiszpania": "https://flagcdn.com/w40/es.png",
+    "Włochy": "https://flagcdn.com/w40/it.png",
+    "Polska": "https://flagcdn.com/w40/pl.png"
+  }
+}
+{
+  "clubs": [
+    {
+      "name": "Inter",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/05/FC_Internazionale_Milano_2021.svg",
+      "aliases": [
+        "inter",
+        "inter mediolan",
+        "inter milan",
+        "fc internazionale",
+        "internazionale",
+        "nerazzurri"
+      ]
+    },
+    {
+      "name": "AC Milan",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
+      "aliases": [
+        "milan",
+        "ac milan",
+        "milan ac",
+        "rossoneri"
+      ]
+    },
+    {
+      "name": "Juventus",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/3f/Juventus_Turin.svg",
+      "aliases": [
+        "juventus",
+        "juve",
+        "juventus turyn",
+        "bianconeri"
+      ]
+    },
+    {
+      "name": "AS Roma",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg",
+      "aliases": [
+        "roma",
+        "as roma",
+        "giallorossi"
+      ]
+    },
+    {
+      "name": "Lazio",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/S.S._Lazio_badge.svg",
+      "aliases": [
+        "lazio",
+        "ss lazio",
+        "biancocelesti"
+      ]
+    },
+    {
+      "name": "Napoli",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2d/SSC_Napoli.svg",
+      "aliases": [
+        "napoli",
+        "ssc napoli",
+        "azzurri",
+        "partenopei"
+      ]
+    },
+    {
+      "name": "Atalanta",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg",
+      "aliases": [
+        "atalanta",
+        "atalanta bc",
+        "la dea"
+      ]
+    },
+    {
+      "name": "Fiorentina",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/9/9e/ACF_Fiorentina_2.svg",
+      "aliases": [
+        "fiorentina",
+        "acf fiorentina",
+        "viola"
+      ]
+    },
+    {
+      "name": "Bologna",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/9/92/Bologna_F.C._1909_logo.svg",
+      "aliases": [
+        "bologna",
+        "bologna fc",
+        "rossoblù"
+      ]
+    },
+    {
+      "name": "Torino",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Torino_FC_logo.svg",
+      "aliases": [
+        "torino",
+        "torino fc",
+        "granata"
+      ]
+    },
+    {
+      "name": "Genoa",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/Genoa_C.F.C._logo.svg",
+      "aliases": [
+        "genoa",
+        "genoa cfc",
+        "grifone"
+      ]
+    },
+    {
+      "name": "Monza",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/6e/AC_Monza_Logo.svg",
+      "aliases": [
+        "monza",
+        "ac monza",
+        "biancorossi"
+      ]
+    },
+    {
+      "name": "Udinese",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/8c/Udinese_Calcio_logo.svg",
+      "aliases": [
+        "udinese",
+        "udinese calcio",
+        "bianconeri"
+      ]
+    },
+    {
+      "name": "Lecce",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/1c/US_Lecce.svg",
+      "aliases": [
+        "lecce",
+        "us lecce",
+        "giallorossi"
+      ]
+    },
+    {
+      "name": "Empoli",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Empoli_FC.svg",
+      "aliases": [
+        "empoli",
+        "empoli fc",
+        "azzurri"
+      ]
+    },
+    {
+      "name": "Hellas Verona",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Hellas_Verona_FC_logo.svg",
+      "aliases": [
+        "verona",
+        "hellas verona",
+        "gialloblu"
+      ]
+    },
+    {
+      "name": "Frosinone",
+      "league": "Serie A",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/1a/Frosinone_Calcio_logo.svg",
+      "aliases": [
+        "frosinone",
+        "frosinone calcio",
+        "canarini"
+      ]
+    },
+
+    /* ---------------------- */
+    /*       SERIE B          */
+    /* ---------------------- */
+
+    {
+      "name": "Parma",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/e/e3/Parma_Calcio_1913_logo.svg",
+      "aliases": [
+        "parma",
+        "parma calcio",
+        "crociati"
+      ]
+    },
+    {
+      "name": "Sampdoria",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d2/U.C._Sampdoria_logo.svg",
+      "aliases": [
+        "sampdoria",
+        "uc sampdoria",
+        "blucerchiati"
+      ]
+    },
+    {
+      "name": "Palermo",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/8f/Palermo_FC_logo.svg",
+      "aliases": [
+        "palermo",
+        "palermo fc",
+        "rosanero"
+      ]
+    },
+    {
+      "name": "Bari",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/SSC_Bari_logo.svg",
+      "aliases": [
+        "bari",
+        "ssc bari",
+        "galletti"
+      ]
+    },
+    {
+      "name": "Cremonese",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5e/US_Cremonese_logo.svg",
+      "aliases": [
+        "cremonese",
+        "us cremonese",
+        "grigiorossi"
+      ]
+    },
+    {
+      "name": "Modena",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Modena_FC_logo.svg",
+      "aliases": [
+        "modena",
+        "modena fc",
+        "canarini"
+      ]
+    },
+    {
+      "name": "Reggiana",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/AC_Reggiana_1919_logo.svg",
+      "aliases": [
+        "reggiana",
+        "ac reggiana",
+        "granata"
+      ]
+    },
+    {
+      "name": "Catanzaro",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4a/US_Catanzaro_logo.svg",
+      "aliases": [
+        "catanzaro",
+        "us catanzaro",
+        "aquile"
+      ]
+    },
+    {
+      "name": "Como",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5a/Como_1907_logo.svg",
+      "aliases": [
+        "como",
+        "como 1907",
+        "lariani"
+      ]
+    },
+    {
+      "name": "Pisa",
+      "league": "Serie B",
+      "country": "Włochy",
+      "flag": "https://flagcdn.com/w40/it.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5a/Pisa_SC_logo.svg",
+      "aliases": [
+        "pisa",
+        "pisa sc",
+        "nerazzurri"
+      ]
+    }
+  ],
+
+  "countryFlags": {
+    "Anglia": "https://flagcdn.com/w40/gb-eng.png",
+    "Hiszpania": "https://flagcdn.com/w40/es.png",
+    "Włochy": "https://flagcdn.com/w40/it.png",
+    "Polska": "https://flagcdn.com/w40/pl.png"
+  }
+}
+{
+  "clubs": [
+    {
+      "name": "Legia Warszawa",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/6e/Legia_Warszawa_logo.svg",
+      "aliases": [
+        "legia",
+        "legia warszawa",
+        "legia warsaw",
+        "cwks legia",
+        "wojskowi",
+        "legioniści"
+      ]
+    },
+    {
+      "name": "Lech Poznań",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/8e/Lech_Pozna%C5%84.svg",
+      "aliases": [
+        "lech",
+        "lech poznan",
+        "kolejorz",
+        "kks lech"
+      ]
+    },
+    {
+      "name": "Raków Częstochowa",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/3a/Rak%C3%B3w_Cz%C4%99stochowa_logo.svg",
+      "aliases": [
+        "rakow",
+        "raków",
+        "rakow czestochowa",
+        "medaliki"
+      ]
+    },
+    {
+      "name": "Pogoń Szczecin",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/3a/Pogon_Szczecin_logo.svg",
+      "aliases": [
+        "pogon",
+        "pogoń",
+        "pogon szczecin",
+        "portowcy"
+      ]
+    },
+    {
+      "name": "Górnik Zabrze",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5a/G%C3%B3rnik_Zabrze_logo.svg",
+      "aliases": [
+        "gornik",
+        "górnik",
+        "gornik zabrze",
+        "trójkolorowi"
+      ]
+    },
+    {
+      "name": "Śląsk Wrocław",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/8e/%C5%9Al%C4%85sk_Wroc%C5%82aw_logo.svg",
+      "aliases": [
+        "slask",
+        "śląsk",
+        "slask wroclaw",
+        "wojskowi"
+      ]
+    },
+    {
+      "name": "Wisła Kraków",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5a/Wis%C5%82a_Krak%C3%B3w.svg",
+      "aliases": [
+        "wisla",
+        "wisła",
+        "wisla krakow",
+        "biala gwiazda"
+      ]
+    },
+    {
+      "name": "Cracovia",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/MKS_Cracovia_logo.svg",
+      "aliases": [
+        "cracovia",
+        "ks cracovia",
+        "pasy"
+      ]
+    },
+    {
+      "name": "Jagiellonia Białystok",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/Jagiellonia_Bia%C5%82ystok_logo.svg",
+      "aliases": [
+        "jagiellonia",
+        "jaga",
+        "jagiellonia bialystok"
+      ]
+    },
+    {
+      "name": "Piast Gliwice",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4d/Piast_Gliwice_logo.svg",
+      "aliases": [
+        "piast",
+        "piast gliwice",
+        "niebiesko-czerwoni"
+      ]
+    },
+    {
+      "name": "Widzew Łódź",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/1a/Widzew_%C5%81%C3%B3d%C5%BA_logo.svg",
+      "aliases": [
+        "widzew",
+        "widzew lodz",
+        "rtS widzew",
+        "czerwono-biali"
+      ]
+    },
+    {
+      "name": "Korona Kielce",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/3e/Korona_Kielce_logo.svg",
+      "aliases": [
+        "korona",
+        "korona kielce",
+        "złocisto-krwiści"
+      ]
+    },
+    {
+      "name": "Zagłębie Lubin",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/Zag%C5%82%C4%99bie_Lubin_logo.svg",
+      "aliases": [
+        "zaglebie",
+        "zagłębie",
+        "zaglebie lubin",
+        "miedziowi"
+      ]
+    },
+    {
+      "name": "Stal Mielec",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2a/Stal_Mielec_logo.svg",
+      "aliases": [
+        "stal",
+        "stal mielec",
+        "biało-niebiescy"
+      ]
+    },
+    {
+      "name": "Radomiak Radom",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/RKS_Radomiak_Radom_logo.svg",
+      "aliases": [
+        "radomiak",
+        "radomiak radom",
+        "zieloni"
+      ]
+    },
+    {
+      "name": "Puszcza Niepołomice",
+      "league": "Ekstraklasa",
+      "country": "Polska",
+      "flag": "https://flagcdn.com/w40/pl.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/6f/Puszcza_Niepo%C5%82omice_logo.svg",
+      "aliases": [
+        "puszcza",
+        "puszcza niepolomice",
+        "żubry"
+      ]
+    }
+  ],
+
+  "countryFlags": {
+    "Anglia": "https://flagcdn.com/w40/gb-eng.png",
+    "Hiszpania": "https://flagcdn.com/w40/es.png",
+    "Włochy": "https://flagcdn.com/w40/it.png",
+    "Polska": "https://flagcdn.com/w40/pl.png"
+  }
+}
